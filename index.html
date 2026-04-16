@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LINE — Catalogue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Unbounded:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-fold">
+      <header class="site-header border-b">
+        <div class="site-header__inner">
+          <a class="logo" href="#">LINE</a>
+          <nav class="nav" aria-label="Main">
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
+            <a href="#kids">Kids</a>
+            <a href="#editorial">Editorial</a>
+          </nav>
+          <a class="btn-cta" href="#collection">New season</a>
+        </div>
+      </header>
+      <section class="hero bento" aria-labelledby="hero-heading">
+        <div class="hero__top cell cell--hero-panel">
+          <div class="hero__top-inner">
+            <div class="hero__eyebrow-row">
+              <p class="eyebrow">Archive / 01</p>
+            </div>
+            <div class="hero__main-row">
+              <div class="hero__heading-col">
+                <h1 id="hero-heading" class="hero__title">
+                  The rare <span class="text-accent">archive</span>
+                </h1>
+              </div>
+              <div class="hero__aside">
+                <p class="lede">
+                  Sourced from limited collections for those who value 
+                  exclusivity, history, and exact proportion.
+                </p>
+                <a class="link-arrow" href="#collection">
+                  Explore the archive
+                  <span class="link-arrow__circle" aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__shot cell">
+          <img
+            src="assets/hero-image.png"
+            alt="Neutral-toned garments on wooden hangers against a studio backdrop."
+            width="1600"
+            height="900"
+            loading="eager"
+          />
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section class="categories bento border-t" aria-labelledby="cat-heading">
+        <h2 id="cat-heading" class="visually-hidden">Shop by category</h2>
+        <article class="cat-card cell cell--pink">
+          <span class="cat-card__num" aria-hidden="true">01.</span>
+          <h3 class="cat-card__title">Women</h3>
+          <p class="cat-card__text">
+            Coats, knits, and tailored separates in wool and cotton.
+          </p>
+          <a class="read-more" href="#women">Read more</a>
+        </article>
+        <article class="cat-card cell">
+          <span class="cat-card__num" aria-hidden="true">02.</span>
+          <h3 class="cat-card__title">Men</h3>
+          <p class="cat-card__text">
+            Shirts, trousers, and lightweight outerwear for everyday rotation.
+          </p>
+          <a class="read-more" href="#men">Read more</a>
+        </article>
+        <article class="cat-card cell cell--pink">
+          <span class="cat-card__num" aria-hidden="true">03.</span>
+          <h3 class="cat-card__title">Accessories</h3>
+          <p class="cat-card__text">
+            Leather goods, scarves, and metal hardware in matte finishes.
+          </p>
+          <a class="read-more" href="#accessories">Read more</a>
+        </article>
+      </section>
+
+      <section
+        class="editorial bento border-t"
+        id="editorial"
+        aria-labelledby="edit-heading"
+      >
+        <div class="editorial__visual cell">
+          <img
+            src="assets/lookbook.png"
+            alt="Lookbook editorial photograph."
+            width="900"
+            height="600"
+            loading="lazy"
+          />
+        </div>
+        <div class="editorial__copy cell cell--pink">
+          <p class="eyebrow">Lookbook</p>
+          <h2 id="edit-heading" class="section-title">
+            Volume <span class="text-accent">IV</span>
+          </h2>
+          <p class="body">
+            Shot in studio: hard light, long shadows, and clothing that holds its
+            line. No props—only posture and drape.
+          </p>
+          <a class="read-more" href="#lookbook">Read more</a>
+        </div>
+      </section>
+
+      <section class="products" id="collection" aria-labelledby="prod-heading">
+        <div class="bento products-bento">
+          <div class="products__head cell cell--white">
+            <h2 id="prod-heading" class="section-title section-title--sm">
+              Selected <span class="text-accent">pieces</span>
+            </h2>
+            <p class="body products__intro">
+              Prices and names are static placeholders for layout.
+            </p>
+          </div>
+          <article class="product cell">
+            <div class="product__media">
+              <img
+                src="assets/product-crew.png"
+                alt="Navy merino crew neck sweater."
+                width="682"
+                height="1024"
+                loading="lazy"
+              />
+            </div>
+            <div class="product__meta">
+              <h3 class="product__name">Merino crew neck</h3>
+              <p class="product__price">€ 59</p>
+            </div>
+          </article>
+          <article class="product cell cell--pink">
+            <div class="product__media">
+              <img
+                src="assets/product-trouser.png"
+                alt="Chocolate brown wide-leg trousers."
+                width="682"
+                height="1024"
+                loading="lazy"
+              />
+            </div>
+            <div class="product__meta">
+              <h3 class="product__name">Wide-leg trouser</h3>
+              <p class="product__price">€ 89</p>
+            </div>
+          </article>
+          <article class="product cell">
+            <div class="product__media">
+              <img
+                src="assets/product-parka.png"
+                alt="Brown technical hooded parka."
+                width="682"
+                height="1024"
+                loading="lazy"
+              />
+            </div>
+            <div class="product__meta">
+              <h3 class="product__name">Technical parka</h3>
+              <p class="product__price">€ 199</p>
+            </div>
+          </article>
+          <article class="product cell cell--pink">
+            <div class="product__media">
+              <img
+                src="assets/product-belt.png"
+                alt="Brown leather belt with gold buckle."
+                width="682"
+                height="1024"
+                loading="lazy"
+              />
+            </div>
+            <div class="product__meta">
+              <h3 class="product__name">Leather belt</h3>
+              <p class="product__price">€ 45</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer border-t" id="subscribe">
+      <div class="site-footer__grid bento">
+        <div class="site-footer__brand cell cell--pink">
+          <p class="footer-logo">LINE</p>
+          <p class="body footer-tagline">Catalogue MMXXVI — static layout.</p>
+          <form class="newsletter" action="#" method="get" aria-label="Newsletter">
+            <label class="newsletter__label" for="email">Subscribe</label>
+            <div class="newsletter__row">
+              <input
+                id="email"
+                class="newsletter__input"
+                type="email"
+                name="email"
+                placeholder="Your email"
+                autocomplete="email"
+                readonly
+              />
+              <button class="newsletter__send" type="button" aria-label="Submit">
+                →
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="site-footer__links cell">
+          <div class="footer-col">
+            <h3 class="footer-heading">Shop</h3>
+            <ul>
+              <li><a href="#">New in</a></li>
+              <li><a href="#">Clothing</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-heading">Help</h3>
+            <ul>
+              <li><a href="#">Stores</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-heading">Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Legal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__bar cell cell--white">
+          <p class="fineprint">© LINE. All images placeholder.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
